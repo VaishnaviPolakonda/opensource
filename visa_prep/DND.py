@@ -1,0 +1,5 @@
+a,b=map(int,input().split())
+m=list(map(int,input().split()))
+n1=sum(x for x in m if x%b!=0)
+n2=sum(x for x in m if x%b==0)
+print(n2-n1)
