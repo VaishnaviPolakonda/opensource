@@ -1,0 +1,5 @@
+s=input()
+v=set("aeiouAEIOU")
+vc=sum(1 for char in s if char in v)
+cc=sum(1 for char in s if char.isalpha() and char not in v)
+print(f"{vc},{cc}")
